@@ -29,6 +29,7 @@
 ├── main.py                  # 一键运行四种方法 (Python)
 ├── requirements.txt         # 项目依赖
 └── README.md
+```
 
 ---
 
@@ -37,10 +38,12 @@
 ```bash
 conda create --name zz-ad python=3.8
 conda activate zz-ad
+```
 
 2. 安装依赖
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -63,6 +66,7 @@ python detect_isolation.py    # IsolationForest
 python ae_detect.py           # Autoencoder
 python detect_lof.py          # Local Outlier Factor
 python detect_ocsvm.py        # One-Class SVM
+```
 
 每个脚本运行后会生成一个结果文件，例如：
 
@@ -76,6 +80,7 @@ python detect_ocsvm.py        # One-Class SVM
 如果希望顺序运行所有方法，可使用以下方式：
 ```bash
 python main.py scp.pcapng
+```
 
 ---
 
