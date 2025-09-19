@@ -55,6 +55,7 @@ pip install -r requirements.txt
 ### Step 2: 特征抽取
 ```bash
 python flow_features.py
+```
 
 运行后会生成：
 
