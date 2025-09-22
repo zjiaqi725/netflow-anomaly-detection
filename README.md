@@ -23,7 +23,7 @@
 .
 ├── flow_features.py   # 从 pcapng 提取流特征，生成 flows.csv
 ├── detect_isolation.py      # IsolationForest 异常检测
-├── ae_detect.py             # Autoencoder 异常检测
+├── detect_ae.py             # Autoencoder 异常检测
 ├── detect_lof.py            # Local Outlier Factor 异常检测
 ├── detect_ocsvm.py          # One-Class SVM 异常检测
 ├── main.py                  # 一键运行四种方法 (Python)
@@ -64,7 +64,7 @@ python flow_features.py
 ### Step 3: 运行单个检测方法
 ```bash
 python detect_isolation.py    # IsolationForest
-python ae_detect.py           # Autoencoder
+python detect_ae.py           # Autoencoder
 python detect_lof.py          # Local Outlier Factor
 python detect_ocsvm.py        # One-Class SVM
 ```
